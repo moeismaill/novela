@@ -9,6 +9,20 @@
     "clean": "gatsby clean",
     "proxy": "netlify-cms-proxy-server"
   },
+  "overrides": [],
+    "plugins": [],
+    "rules": {
+      "unicorn/no-abusive-eslint-disable": 0,
+      "unicorn/filename-case": [
+        "error",
+        {
+          "cases": {
+            "camelCase": true,
+            "kebabCase": true
+          }
+        }
+      ]
+    },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
     "gatsby": "^2.13.41",
